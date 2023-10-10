@@ -16,5 +16,7 @@ Use Python to analyze the US Bikeshare Data
 ### Files used
 Python Script: bikeshare_2.py
 
+The data files chicago.csv, new_york_city.csv and washington.csv are not uploaded because they are too big
+
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
