@@ -189,15 +189,16 @@ def display_raw_data(df:pd.DataFrame):
     """
 
     view_data = input("\nWould you like to view 5 rows of individual trip data? Enter yes or no: ").lower()
+    row_count_to_display = 10
     start_loc = 0
-    end_loc = 5
+    end_loc = row_count_to_display
 
     if (view_data == 'yes'):
 
         while(True):
             print(df.iloc[start_loc:end_loc])
-            start_loc += 5
-            end_loc += 5
+            start_loc += row_count_to_display
+            end_loc += row_count_to_display
 
             should_continue = input("\nDo you with to continue with 5 more rows? Enter yes or no: ").lower()
 
