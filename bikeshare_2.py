@@ -199,9 +199,9 @@ def display_raw_data(df:pd.DataFrame):
             start_loc += 5
             end_loc += 5
 
-            wish_to_continue = input("\nDo you with to continue with 5 more rows? Enter yes or no: ").lower()
+            should_continue = input("\nDo you with to continue with 5 more rows? Enter yes or no: ").lower()
 
-            if (wish_to_continue == 'no'):
+            if (should_continue == 'no'):
                 break
 
 def main():
